@@ -1,0 +1,224 @@
+{
+	"personal-info": [
+	  {
+        "name": "John",
+        "age": "23",
+        "gender": "M",
+        "email": "john.m@hotmail.com",
+        "address": "53 Random Street",
+        "nationality": "American",
+        "native-language": "English",
+        "starting-proficiency-level": "A1",
+        "end-proficiency-level": "B1"
+      },
+	  {
+        "name": "Ben",
+        "age": "25",
+        "gender": "M",
+        "email": "ben.f@hotmail.com",
+        "address": "89 Australian Road",
+        "nationality": "Australian",
+        "native-language": "English",
+        "starting-proficiency-level": "A1",
+        "end-proficiency-level": "B1"
+      },
+	  {
+        "name": "Marco",
+        "age": "19",
+        "gender": "M",
+        "email": "marco.s@hotmail.com",
+        "address": "13 Via Manzoni",
+        "nationality": "Italian",
+        "native-language": "Italian",
+        "starting-proficiency-level": "A2",
+        "end-proficiency-level": "B2"
+      },
+	  {
+        "name": "Manizheh",
+        "age": "27",
+        "gender": "F",
+        "email": "manizheh.v@hotmail.com",
+        "address": "89 Tehran Road",
+        "nationality": "Iranian",
+        "native-language": "Persian",
+        "starting-proficiency-level": "A2",
+        "end-proficiency-level": "B2"
+      },
+	  {
+        "name": "Brown's Family",
+        "age": "30",
+        "gender": "O",
+        "email": "browns.f@hotmail.com",
+        "address": "53 English Place",
+        "nationality": "British",
+        "native-language": "English",
+        "starting-proficiency-level": "A1",
+        "end-proficiency-level": "A2"
+      },
+	  {
+        "name": "Santiago's Family",
+        "age": "35",
+        "gender": "O",
+        "email": "santiagos.f@hotmail.com",
+		"address": "81 Madrid Calle",
+        "nationality": "Spanish",
+        "native-language": "Spanish",
+        "starting-proficiency-level": "A1",
+        "end-proficiency-level": "A2"
+      },
+	  {
+        "name": "4B Seville High School",
+        "age": "19",
+        "gender": "O",
+        "email": "seville4b.hs@hotmail.com",
+        "address": "12 Calle Larga",
+        "nationality": "Spanish",
+        "native-language": "Spanish",
+        "starting-proficiency-level": "B2",
+        "end-proficiency-level": "C1"
+      },
+	  {
+        "name": "5B Seville High School",
+        "age": "20",
+        "gender": "O",
+        "email": "seville5b.hs@hotmail.com",
+        "address": "12 Calle Larga",
+        "nationality": "Spanish",
+        "native-language": "Spanish",
+        "starting-proficiency-level": "B1",
+        "end-proficiency-level": "B2"
+      },
+	  {
+        "name": "Edinburgh High School",
+        "age": "19",
+        "gender": "O",
+        "email": "edinburgh.hs@hotmail.com",
+        "address": "78 London Bridge Road",
+        "nationality": "British",
+        "native-language": "English",
+        "starting-proficiency-level": "B1",
+        "end-proficiency-level": "B2"
+      },
+	  {
+        "name": "Ming's Couple",
+        "age": "25",
+        "gender": "O",
+        "email": "ming.c@hotmail.com",
+        "address": "13 Chinese Road",
+        "nationality": "Chinese",
+        "native-language": "Chinese",
+        "starting-proficiency-level": "A1",
+        "end-proficiency-level": "A2"
+      },
+	  {
+        "name": "Markus and Simon",
+        "age": "25",
+        "gender": "M",
+        "email": "markus.simon@hotmail.com",
+        "address": "7 Berlin Strasse",
+        "nationality": "German",
+        "native-language": "German",
+        "starting-proficiency-level": "A1",
+        "end-proficiency-level": "A2"
+      },
+	  {
+        "name": "Miley",
+        "age": "26",
+        "gender": "F",
+        "email": "miley.c@hotmail.com",
+        "address": "7 Texas Street",
+        "nationality": "American",
+        "native-language": "English",
+        "starting-proficiency-level": "A1",
+        "end-proficiency-level": "A2"
+      },
+	  {
+        "name": "Kevin",
+        "age": "30",
+        "gender": "M",
+        "email": "kevin.s@hotmail.com",
+        "address": "22 Jump Street",
+        "nationality": "American",
+        "native-language": "English",
+        "starting-proficiency-level": "A2",
+        "end-proficiency-level": "B2"
+      },
+	  {
+        "name": "Zorba",
+        "age": "25",
+        "gender": "M",
+        "email": "zorba.s@hotmail.com",
+        "address": "7 Athens Road",
+        "nationality": "Greek",
+        "native-language": "Greek",
+        "starting-proficiency-level": "A2",
+        "end-proficiency-level": "B2"
+      },
+	  {
+        "name": "Park Chae-young",
+        "age": "26",
+        "gender": "F",
+        "email": "chae-young.p@hotmail.com",
+        "address": "3 Seoul Street",
+        "nationality": "Korean",
+        "native-language": "Korean",
+        "starting-proficiency-level": "A2",
+        "end-proficiency-level": "B1"
+      },
+	  {
+        "name": "Patricia",
+        "age": "24",
+        "gender": "F",
+        "email": "patricia.d@hotmail.com",
+        "address": "75 Rue de Paris",
+        "nationality": "French",
+        "native-language": "French",
+        "starting-proficiency-level": "A2",
+        "end-proficiency-level": "B1"
+      },
+	  {
+        "name": "Marilia",
+        "age": "27",
+        "gender": "F",
+        "email": "marilia.m@hotmail.com",
+        "address": "382 Pedroso Road",
+        "nationality": "Brazilian",
+        "native-language": "Portuguese",
+        "starting-proficiency-level": "A1",
+        "end-proficiency-level": "A2"
+      },
+	  {
+        "name": "Patrick",
+        "age": "22",
+        "gender": "M",
+        "email": "patrick.g@hotmail.com",
+        "address": "55 Hollywood Street",
+        "nationality": "American",
+        "native-language": "English",
+        "starting-proficiency-level": "A1",
+        "end-proficiency-level": "A2"
+      },
+	  {
+        "name": "Eric's Family",
+        "age": "29",
+        "gender": "O",
+        "email": "eric.f@hotmail.com",
+        "address": "102 Zurich Street",
+        "nationality": "Swiss",
+        "native-language": "French",
+        "starting-proficiency-level": "B1",
+        "end-proficiency-level": "C1"
+      },
+	  {
+        "name": "Andrea",
+        "age": "30",
+        "gender": "M",
+        "email": "andrea.y@hotmail.com",
+        "address": "31 Piazza Goito",
+        "nationality": "Italian",
+        "native-language": "Italian",
+        "starting-proficiency-level": "B1",
+        "end-proficiency-level": "C1"
+      }
+	]
+}

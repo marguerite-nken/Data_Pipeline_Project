@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transfo_for_holiday_with_namespace.xsl"?> 
+<fi:LANGUAGE-HOLIDAY-AGENCY
+	 xmlns:fi="http://mynamespace.fr/myvocabulary#" >
+	<fi:group id='E'>
+		<fi:name> European </fi:name>
+		<fi:country name='France'>
+			<fi:office city='Paris'>
+				<fi:location>
+					<fi:postal-code> 75005 </fi:postal-code>
+					<fi:road-name> Rue la Collegiale </fi:road-name>
+					<fi:building-number> 4 </fi:building-number>
+				</fi:location>
+				<fi:n-employees> 3 </fi:n-employees>
+				<fi:manager> Vincent </fi:manager>
+				<fi:employee> 
+					<fi:name> Clemence </fi:name>
+					<fi:email> clemence.euro@agency.fr </fi:email>
+					<fi:address> 4 Rue la Collegiale </fi:address>
+					<fi:gender> F </fi:gender>
+					<fi:language-offer-specialization> French </fi:language-offer-specialization>
+					<fi:office-location> Paris </fi:office-location>
+				</fi:employee>
+				<fi:employee> 
+					<fi:name> Jeanne </fi:name>
+					<fi:email> jeanne.euro@agency.fr </fi:email>
+					<fi:address> 4 Rue la Collegiale </fi:address>
+					<fi:gender> F </fi:gender>
+					<fi:language-offer-specialization> French </fi:language-offer-specialization>
+					<fi:office-location> Paris </fi:office-location>
+				</fi:employee>
+				<fi:offer>
+					<fi:id> 111 </fi:id>
+					<fi:tour-leader> 
+						<fi:name> Clemence </fi:name>
+						<fi:age> 30 </fi:age>
+						<fi:gender> F </fi:gender>
+						<fi:email> clemence.euro@agency.fr </fi:email>
+						<fi:address> 4 Rue la Collegiale </fi:address>
+						<fi:language-specialization> French </fi:language-specialization>
+						<fi:country-specialization> France </fi:country-specialization>
+						<fi:city-specialization> Paris </fi:city-specialization>
+					</fi:tour-leader>
+					<fi:participant> 
+						<fi:personal-info>
+							<fi:name> John </fi:name>
+							<fi:age> 23 </fi:age>
+							<fi:gender> M </fi:gender>
+							<fi:email> john.m@hotmail.com </fi:email>
+							<fi:address> 53 Random Street </fi:address>
+							<fi:nationality> American </fi:nationality>
+							<fi:native-language> English </fi:native-language>
+							<fi:starting-proficiency-level> A1 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> B1 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> alone </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> sport </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 2500 </fi:budget>
+							<fi:duration> 1 month </fi:duration>
+							<fi:season> Summer </fi:season>
+							<fi:start-date> 2023-06-01 </fi:start-date>
+							<fi:end-date> 2023-07-01 </fi:end-date>
+							<fi:accomodation> college </fi:accomodation>
+							<fi:accommodation-board> room and board </fi:accommodation-board>
+							<fi:type-of-holiday> school break </fi:type-of-holiday>
+							<fi:final-test> proficiency certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:participant>
+						<fi:personal-info>
+							<fi:name> Ben </fi:name>
+							<fi:age> 25 </fi:age>
+							<fi:gender> M </fi:gender>
+							<fi:email> ben.f@hotmail.com </fi:email>
+							<fi:address> 89 Australian Road </fi:address>
+							<fi:nationality> Australian </fi:nationality>
+							<fi:native-language> English </fi:native-language>
+							<fi:starting-proficiency-level> A1 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> B1 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> alone </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> relax </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 2500 </fi:budget>
+							<fi:duration> 1 month </fi:duration>
+							<fi:season> Summer </fi:season>
+							<fi:start-date> 2023-06-01 </fi:start-date>
+							<fi:end-date> 2023-07-01 </fi:end-date>
+							<fi:accomodation> studio-apartment </fi:accomodation>
+							<fi:accommodation-board> half board </fi:accommodation-board>
+							<fi:type-of-holiday> school break </fi:type-of-holiday>
+							<fi:final-test> external certificate of proficiency </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:period season='Summer'>
+						<fi:start-date> 2023-06-01 </fi:start-date>
+						<fi:end-date> 2023-07-01 </fi:end-date>
+						<fi:activity>
+							<fi:name> sightseeing </fi:name>
+							<fi:occurrence> 2 </fi:occurrence>
+							<fi:main-type> culture </fi:main-type>
+							<fi:secondary-type> small group </fi:secondary-type>
+							<fi:n-participants> 2 </fi:n-participants>
+								<fi:participant>
+									<fi:name> John </fi:name>
+									<fi:age> 23 </fi:age>
+									<fi:gender> M </fi:gender>
+									<fi:email> john.m@hotmail.com </fi:email>
+								</fi:participant>
+								<fi:participant>
+									<fi:name> Ben </fi:name>
+									<fi:age> 25 </fi:age>
+									<fi:gender> M </fi:gender>
+									<fi:email> ben.f@hotmail.com </fi:email>
+								</fi:participant>
+						</fi:activity>
+						<fi:activity>
+							<fi:name> spa </fi:name>
+							<fi:occurrence> 1 </fi:occurrence>
+							<fi:main-type> relax </fi:main-type>
+							<fi:secondary-type> individual </fi:secondary-type>
+							<fi:n-participants> 1 </fi:n-participants>
+							<fi:participant>
+								<fi:name> Ben </fi:name>
+								<fi:age> 25 </fi:age>
+								<fi:gender> M </fi:gender>
+								<fi:email> ben.f@hotmail.com </fi:email>
+							</fi:participant>
+						</fi:activity>
+						<fi:staff>
+							<fi:name> Clemence </fi:name>
+							<fi:gender> F </fi:gender>
+							<fi:email> clemence.euro@agency.fr </fi:email>
+							<fi:address> 4 Rue la Collegial </fi:address>
+							<fi:language> French </fi:language>
+							<fi:type> guide </fi:type>
+						</fi:staff>
+					</fi:period>		
+					<fi:language-class>
+					<fi:id> F22 </fi:id>
+					<fi:n-students> 2 </fi:n-students>
+					<fi:language> French </fi:language>
+					<fi:proficiency>  A1 to B1 </fi:proficiency>
+					<fi:final-test> proficiency certificate </fi:final-test>
+					<fi:final-test> external certificate of proficiency </fi:final-test>
+					<fi:professor>
+						<fi:name> Jeanne </fi:name>
+						<fi:gender> F </fi:gender>
+						<fi:email> jeanne.euro@agency.fr </fi:email>
+						<fi:address> 4 Rue la Collegial </fi:address>
+						<fi:language> French </fi:language>
+						<fi:proficiency> C1 </fi:proficiency> 
+					</fi:professor>
+					<fi:participant>
+						<fi:name> John </fi:name>
+						<fi:age> 23 </fi:age>
+						<fi:gender> M </fi:gender>
+						<fi:email> john.m@hotmail.com </fi:email>
+						<fi:nationality> American </fi:nationality>
+						<fi:native-language> English </fi:native-language>
+					</fi:participant>
+					<fi:participant>
+						<fi:name> Ben </fi:name>
+						<fi:age> 25 </fi:age>
+						<fi:gender> M </fi:gender>
+						<fi:email> ben.f@hotmail.com </fi:email>
+						<fi:nationality> Australian </fi:nationality>
+						<fi:native-language> English </fi:native-language>
+					</fi:participant>
+					</fi:language-class>
+				</fi:offer>
+				<fi:offer>
+					<fi:id> 112 </fi:id>
+					<fi:tour-leader> 
+						<fi:name> Clemence </fi:name>
+						<fi:age> 30 </fi:age>
+						<fi:gender> F </fi:gender>
+						<fi:email> clemence.euro@agency.fr </fi:email>
+						<fi:address> 4 Rue la Collegiale </fi:address>
+						<fi:language-specialization> French </fi:language-specialization>
+						<fi:country-specialization> France </fi:country-specialization>
+						<fi:city-specialization> Paris </fi:city-specialization>
+					</fi:tour-leader>
+					<fi:participant> 
+						<fi:personal-info>
+							<fi:name> Marco </fi:name>
+							<fi:age> 19 </fi:age>
+							<fi:gender> M </fi:gender>
+							<fi:email> marco.s@hotmail.com </fi:email>
+							<fi:address> 13 Via Manzoni </fi:address>
+							<fi:nationality> Italian </fi:nationality>
+							<fi:native-language> Italian </fi:native-language>
+							<fi:starting-proficiency-level> A2 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> B2 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> mixed ages </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> culinary </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 3500 </fi:budget>
+							<fi:duration> 2 month </fi:duration>
+							<fi:season> Autumn </fi:season>
+							<fi:start-date> 2023-10-01 </fi:start-date>
+							<fi:end-date> 2023-12-01 </fi:end-date>
+							<fi:accomodation> guest-house </fi:accomodation>
+							<fi:accommodation-board> room and board </fi:accommodation-board>
+							<fi:type-of-holiday> cultural exchange </fi:type-of-holiday>
+							<fi:final-test> proficiency certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:participant>
+						<fi:personal-info>
+							<fi:name> Manizheh </fi:name>
+							<fi:age> 27 </fi:age>
+							<fi:gender> F </fi:gender>
+							<fi:email> manizheh.v@hotmail.com </fi:email>
+							<fi:address> 89 Tehran Road </fi:address>
+							<fi:nationality> Iranian </fi:nationality>
+							<fi:native-language> Persian </fi:native-language>
+							<fi:starting-proficiency-level> A2 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> B2 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> mixed ages </fi:group>
+							<fi:activity-main-type> culinary </fi:activity-main-type>
+							<fi:activity-main-type> relax </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 3500 </fi:budget>
+							<fi:duration> 2 month </fi:duration>
+							<fi:season> Autumn </fi:season>
+							<fi:start-date> 2023-10-01 </fi:start-date>
+							<fi:end-date> 2023-12-01 </fi:end-date>
+							<fi:accomodation> guest-house </fi:accomodation>
+							<fi:accommodation-board> half board </fi:accommodation-board>
+							<fi:type-of-holiday> cultural exchange </fi:type-of-holiday>
+							<fi:final-test> proficiency certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:period season='Autumn'>
+						<fi:start-date> 2023-10-01 </fi:start-date>
+						<fi:end-date> 2023-12-01 </fi:end-date>
+						<fi:activity>
+							<fi:name> Macarons lab </fi:name>
+							<fi:occurrence> 2 </fi:occurrence>
+							<fi:main-type> culinary </fi:main-type>
+							<fi:secondary-type> small group </fi:secondary-type>
+							<fi:n-participants> 2 </fi:n-participants>
+								<fi:participant>
+									<fi:name> Marco </fi:name>
+									<fi:age> 19 </fi:age>
+									<fi:gender> M </fi:gender>
+									<fi:email> marco.s@hotmail.com </fi:email>
+								</fi:participant>
+								<fi:participant>
+									<fi:name> Manizheh </fi:name>
+									<fi:age> 27 </fi:age>
+									<fi:gender> F </fi:gender>
+									<fi:email> manizheh.v@hotmail.com </fi:email>
+								</fi:participant>
+						</fi:activity>
+						<fi:staff>
+							<fi:name> Clemence </fi:name>
+							<fi:gender> F </fi:gender>
+							<fi:email> clemence.euro@agency.fr </fi:email>
+							<fi:address> 4 Rue la Collegial </fi:address>
+							<fi:language> French </fi:language>
+							<fi:type> planner </fi:type>
+						</fi:staff>
+					</fi:period>
+					<fi:language-class>
+						<fi:id> F32 </fi:id>
+						<fi:n-students> 2 </fi:n-students>
+						<fi:language> French </fi:language>
+						<fi:proficiency>  A2 to B2 </fi:proficiency>
+						<fi:final-test> proficiency certificate </fi:final-test>
+						<fi:final-test> external certificate of proficiency </fi:final-test>
+						<fi:professor>
+							<fi:name> Jeanne </fi:name>
+							<fi:gender> F </fi:gender>
+							<fi:email> jeanne.euro@agency.fr </fi:email>
+							<fi:address> 4 Rue la Collegial </fi:address>
+							<fi:language> French </fi:language>
+							<fi:proficiency> C1 </fi:proficiency> 
+						</fi:professor>
+						<fi:participant>
+							<fi:name> Marco </fi:name>
+							<fi:age> 19 </fi:age>
+							<fi:gender> M </fi:gender>
+							<fi:email> marco.s@hotmail.com </fi:email>
+							<fi:nationality> Italian </fi:nationality>
+							<fi:native-language> Italian </fi:native-language>
+						</fi:participant>
+						<fi:participant>
+							<fi:name> Manizheh </fi:name>
+							<fi:age> 27 </fi:age>
+							<fi:gender> F </fi:gender>
+							<fi:email> manizheh.v@hotmail.com </fi:email>
+							<fi:nationality> Iranian </fi:nationality>
+							<fi:native-language> Persian </fi:native-language>
+						</fi:participant>
+					</fi:language-class>
+				</fi:offer>
+			</fi:office>
+			<fi:office city='Nice'>
+				<fi:location>
+					<fi:postal-code> 06410 </fi:postal-code>
+					<fi:road-name> Route des Colles </fi:road-name>
+					<fi:building-number> 950 </fi:building-number>
+				</fi:location>
+				<fi:n-employees> 3 </fi:n-employees>
+				<fi:manager> Sebastien </fi:manager>
+				<fi:employee> 
+					<fi:name> Jennifer </fi:name>
+					<fi:email> jennifer.euro@agency.fr </fi:email>
+					<fi:address> 950 Route des Colles </fi:address>
+					<fi:gender> F </fi:gender>
+					<fi:language-offer-specialization> French </fi:language-offer-specialization>
+					<fi:office-location> Nice </fi:office-location>
+				</fi:employee>
+				<fi:employee> 
+					<fi:name> Johnny </fi:name>
+					<fi:email> johnny.euro@agency.fr </fi:email>
+					<fi:address> 950 Route des Colles </fi:address>
+					<fi:gender> M </fi:gender>
+					<fi:language-offer-specialization> French </fi:language-offer-specialization>
+					<fi:office-location> Nice </fi:office-location>
+				</fi:employee>
+				<fi:offer>
+					<fi:id> 121 </fi:id>
+					<fi:tour-leader> 
+						<fi:name> Jennifer </fi:name>
+						<fi:age> 40 </fi:age>
+						<fi:gender> F </fi:gender>
+						<fi:email> jennifer.euro@agency.fr </fi:email>
+						<fi:address> 950 Route des Colles </fi:address>
+						<fi:language-specialization> French </fi:language-specialization>
+						<fi:country-specialization> France </fi:country-specialization>
+						<fi:city-specialization> Nice </fi:city-specialization>
+					</fi:tour-leader>
+					<fi:participant> 
+						<fi:personal-info>
+							<fi:name> Brown's Family </fi:name>
+							<fi:age> 30 </fi:age>
+							<fi:gender> O </fi:gender>
+							<fi:email> browns.f@hotmail.com </fi:email>
+							<fi:address> 53 English Place </fi:address>
+							<fi:nationality> British </fi:nationality>
+							<fi:native-language> English </fi:native-language>
+							<fi:starting-proficiency-level> A1 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> A2 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> alone </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> relax </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 1500 </fi:budget>
+							<fi:duration> 2 weeks </fi:duration>
+							<fi:season> Summer </fi:season>
+							<fi:start-date> 2023-06-01 </fi:start-date>
+							<fi:end-date> 2023-06-15 </fi:end-date>
+							<fi:accomodation> not included </fi:accomodation>
+							<fi:accommodation-board> not included </fi:accommodation-board>
+							<fi:type-of-holiday> family holiday </fi:type-of-holiday>
+							<fi:final-test> attendance certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:participant>
+						<fi:personal-info>
+							<fi:name> Santiago's Family </fi:name>
+							<fi:age> 35 </fi:age>
+							<fi:gender> O </fi:gender>
+							<fi:email> santiagos.f@hotmail.com </fi:email>
+							<fi:address> 81 Madrid Calle </fi:address>
+							<fi:nationality> Spanish </fi:nationality>
+							<fi:native-language> Spanish </fi:native-language>
+							<fi:starting-proficiency-level> A1 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> A2 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> alone </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> relax </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 2200 </fi:budget>
+							<fi:duration> 2 weeks </fi:duration>
+							<fi:season> Summer </fi:season>
+							<fi:start-date> 2023-06-01 </fi:start-date>
+							<fi:end-date> 2023-06-15 </fi:end-date>
+							<fi:accomodation> studio-apartment </fi:accomodation>
+							<fi:accommodation-board> half board </fi:accommodation-board>
+							<fi:type-of-holiday> family holiday </fi:type-of-holiday>
+							<fi:final-test> attendance certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:period season='Summer'>
+						<fi:start-date> 2023-06-01 </fi:start-date>
+						<fi:end-date> 2023-06-15 </fi:end-date>
+						<fi:activity>
+							<fi:name> Chateaux Tour </fi:name>
+							<fi:occurrence> 2 </fi:occurrence>
+							<fi:main-type> culture </fi:main-type>
+							<fi:secondary-type> small group </fi:secondary-type>
+							<fi:n-participants> 2 </fi:n-participants>
+								<fi:participant>
+									<fi:name> Brown's Family </fi:name>
+									<fi:age> 30 </fi:age>
+									<fi:gender> O </fi:gender>
+									<fi:email> browns.f@hotmail.com </fi:email>
+								</fi:participant>
+								<fi:participant>
+									<fi:name> Santiago's Family </fi:name>
+									<fi:age> 35 </fi:age>
+									<fi:gender> O </fi:gender>
+									<fi:email> santiagos.f@hotmail.com </fi:email>
+								</fi:participant>
+						</fi:activity>
+						<fi:activity>
+							<fi:name> Swimming pool </fi:name>
+							<fi:occurrence> 1 </fi:occurrence>
+							<fi:main-type> relax </fi:main-type>
+							<fi:secondary-type> individual </fi:secondary-type>
+							<fi:n-participants> 2 </fi:n-participants>
+							<fi:participant>
+								<fi:name> Brown's Family </fi:name>
+								<fi:age> 30 </fi:age>
+								<fi:gender> O </fi:gender>
+								<fi:email> browns.f@hotmail.com </fi:email>
+							</fi:participant>
+							<fi:participant>
+								<fi:name> Santiago's Family </fi:name>
+								<fi:age> 35 </fi:age>
+								<fi:gender> O </fi:gender>
+								<fi:email> santiagos.f@hotmail.com </fi:email>
+							</fi:participant>
+						</fi:activity>
+						<fi:staff>
+							<fi:name> Jennifer </fi:name>
+							<fi:gender> F </fi:gender>
+							<fi:email> jennifer.euro@agency.fr </fi:email>
+							<fi:address> 950 Route des Colles </fi:address>
+							<fi:language> French </fi:language>
+							<fi:type> coordinator </fi:type>
+						</fi:staff>
+					</fi:period>		
+					<fi:language-class>
+						<fi:id> F2 </fi:id>
+						<fi:n-students> 2 </fi:n-students>
+						<fi:language> French </fi:language>
+						<fi:proficiency>  A1 to A2 </fi:proficiency>
+						<fi:final-test> attendance certificate </fi:final-test>
+						<fi:final-test> proficiency certificate </fi:final-test>
+						<fi:professor>
+							<fi:name> Johnny </fi:name>
+							<fi:gender> M </fi:gender>
+							<fi:email> johnny.euro@agency.fr </fi:email>
+						<fi:address> 950 Route des Colles </fi:address>
+						<fi:language> French </fi:language>
+						<fi:proficiency> C1 </fi:proficiency> 
+					</fi:professor>
+					<fi:participant>
+						<fi:name> Brown's Family </fi:name>
+						<fi:age> 30 </fi:age>
+						<fi:gender> O </fi:gender>
+						<fi:email> browns.f@hotmail.com </fi:email>
+						<fi:nationality> British </fi:nationality>
+						<fi:native-language> English </fi:native-language>
+					</fi:participant>
+					<fi:participant>
+						<fi:name> Santiago's Family </fi:name>
+						<fi:age> 35 </fi:age>
+						<fi:gender> O </fi:gender>
+						<fi:email> santiagos.f@hotmail.com </fi:email>
+						<fi:nationality> Spanish </fi:nationality>
+						<fi:native-language> Spanish </fi:native-language>
+					</fi:participant>
+					</fi:language-class>
+				</fi:offer>	
+			</fi:office>
+		</fi:country>
+		<fi:country name='Italy'>
+			<fi:office city='Bologna'>
+				<fi:location>
+					<fi:postal-code> 40033 </fi:postal-code>
+					<fi:road-name> Via Pertini </fi:road-name>
+					<fi:building-number> 5 </fi:building-number>
+				</fi:location>
+				<fi:n-employees> 3 </fi:n-employees>
+				<fi:manager> Sara </fi:manager>
+				<fi:employee> 
+					<fi:name> Manuel </fi:name>
+					<fi:email> manuel.euro@agency.it </fi:email>
+					<fi:address> 5 Via Pertini </fi:address>
+					<fi:gender> M </fi:gender>
+					<fi:language-offer-specialization> Italian </fi:language-offer-specialization>
+					<fi:office-location> Bologna </fi:office-location>
+				</fi:employee>
+				<fi:employee> 
+					<fi:name> Barbara </fi:name>
+					<fi:email> barbara.euro@agency.it </fi:email>
+					<fi:address> 5 Via Pertini </fi:address>
+					<fi:gender> F </fi:gender>
+					<fi:language-offer-specialization> Italian </fi:language-offer-specialization>
+					<fi:office-location> Bologna </fi:office-location>
+				</fi:employee>
+				<fi:offer>
+					<fi:id> 211 </fi:id>
+					<fi:tour-leader> 
+						<fi:name> Manuel </fi:name>
+						<fi:age> 43 </fi:age>
+						<fi:gender> M </fi:gender>
+						<fi:email> manuel.euro@agency.it </fi:email>
+						<fi:address> Via Pertini 5 </fi:address>
+						<fi:language-specialization> Italian </fi:language-specialization>
+						<fi:country-specialization> Italy </fi:country-specialization>
+						<fi:city-specialization> Bologna </fi:city-specialization>
+					</fi:tour-leader>
+					<fi:participant> 
+						<fi:personal-info>
+							<fi:name> 4B Seville High School </fi:name>
+							<fi:age> 19 </fi:age>
+							<fi:gender> O </fi:gender>
+							<fi:email> seville4b.hs@hotmail.com </fi:email>
+							<fi:address> 12 Calle Larga </fi:address>
+							<fi:nationality> Spanish </fi:nationality>
+							<fi:native-language> Spanish </fi:native-language>
+							<fi:starting-proficiency-level> B2 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> C1 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> peers </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> culinary </fi:activity-main-type>
+							<fi:activity-secondary-type> big group </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 1000 </fi:budget>
+							<fi:duration> 2 weeks </fi:duration>
+							<fi:season> Spring </fi:season>
+							<fi:start-date> 2023-05-01 </fi:start-date>
+							<fi:end-date> 2023-05-15 </fi:end-date>
+							<fi:accomodation> guest-house </fi:accomodation>
+							<fi:accommodation-board> room and board </fi:accommodation-board>
+							<fi:type-of-holiday> school group </fi:type-of-holiday>
+							<fi:final-test> external certificate of proficiency </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:participant>
+						<fi:personal-info>
+							<fi:name> 5B Seville High School </fi:name>
+							<fi:age> 20 </fi:age>
+							<fi:gender> O </fi:gender>
+							<fi:email> seville5b.hs@hotmail.com </fi:email>
+							<fi:address> 12 Calle Larga </fi:address>
+							<fi:nationality> Spanish </fi:nationality>
+							<fi:native-language> Spanish </fi:native-language>
+							<fi:starting-proficiency-level> B1 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> B2 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> peers </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> culinary </fi:activity-main-type>
+							<fi:activity-secondary-type> big group </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 1000 </fi:budget>
+							<fi:duration> 2 weeks </fi:duration>
+							<fi:season> Spring </fi:season>
+							<fi:start-date> 2023-05-01 </fi:start-date>
+							<fi:end-date> 2023-05-15 </fi:end-date>
+							<fi:accomodation> guest-house </fi:accomodation>
+							<fi:accommodation-board> room and board </fi:accommodation-board>
+							<fi:type-of-holiday> school group </fi:type-of-holiday>
+							<fi:final-test> external certificate of proficiency </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:participant>
+						<fi:personal-info>
+							<fi:name> Edinburgh High School </fi:name>
+							<fi:age> 19 </fi:age>
+							<fi:gender> O </fi:gender>
+							<fi:email> edinburgh.hs@hotmail.com </fi:email>
+							<fi:address> 78 London Bridge Road </fi:address>
+							<fi:nationality> British </fi:nationality>
+							<fi:native-language> English </fi:native-language>
+							<fi:starting-proficiency-level> B1 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> B2 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> peers </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> sport </fi:activity-main-type>
+							<fi:activity-secondary-type> big group </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 1300 </fi:budget>
+							<fi:duration> 2 weeks </fi:duration>
+							<fi:season> Spring </fi:season>
+							<fi:start-date> 2023-05-01 </fi:start-date>
+							<fi:end-date> 2023-05-15 </fi:end-date>
+							<fi:accomodation> college </fi:accomodation>
+							<fi:accommodation-board> room and board </fi:accommodation-board>
+							<fi:type-of-holiday> school group </fi:type-of-holiday>
+							<fi:final-test> external certificate of proficiency </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:period season='Spring'>
+						<fi:start-date> 2023-05-01 </fi:start-date>
+						<fi:end-date> 2023-05-15 </fi:end-date>
+						<fi:activity>
+							<fi:name> Torre Asinelli e Garisenda </fi:name>
+							<fi:occurrence> 1 </fi:occurrence>
+							<fi:main-type> culture </fi:main-type>
+							<fi:secondary-type> big group </fi:secondary-type>
+							<fi:n-participants> 20 </fi:n-participants>
+								<fi:participant>
+									<fi:name> 4B Seville High School </fi:name>
+									<fi:age> 19 </fi:age>
+									<fi:gender> O </fi:gender>
+									<fi:email> seville4b.hs@hotmail.com </fi:email>
+								</fi:participant>
+								<fi:participant>
+									<fi:name> 5B Seville High School </fi:name>
+									<fi:age> 20 </fi:age>
+									<fi:gender> O </fi:gender>
+									<fi:email> seville5b.hs@hotmail.com  </fi:email>
+								</fi:participant>
+						</fi:activity>
+						<fi:activity>
+							<fi:name> San Luca Track </fi:name>
+							<fi:occurrence> 3 </fi:occurrence>
+							<fi:main-type> sport </fi:main-type>
+							<fi:secondary-type> big group </fi:secondary-type>
+							<fi:n-participants> 30 </fi:n-participants>
+							<fi:participant>
+								<fi:name> Edinburgh High School </fi:name>
+								<fi:age> 19 </fi:age>
+								<fi:gender> O </fi:gender>
+								<fi:email> edinburgh.hs@hotmail.com </fi:email>
+							</fi:participant>
+							<fi:participant>
+								<fi:name> 5B Seville High School </fi:name>
+								<fi:age> 20 </fi:age>
+								<fi:gender> O </fi:gender>
+								<fi:email> seville5b.hs@hotmail.com </fi:email>
+							</fi:participant>
+						</fi:activity>
+						<fi:staff>
+							<fi:name> Manuel </fi:name>
+							<fi:gender> M </fi:gender>
+							<fi:email> manuel.euro@agency.it </fi:email>
+							<fi:address> Via Pertini 5 </fi:address>
+							<fi:language> Italian </fi:language>
+							<fi:type> guide </fi:type>
+						</fi:staff>
+					</fi:period>		
+					<fi:language-class>
+						<fi:id> I4 </fi:id>
+						<fi:n-students> 15 </fi:n-students>
+						<fi:language> Italian </fi:language>
+						<fi:proficiency>  B2 to C1 </fi:proficiency>
+						<fi:final-test> external certificate of proficiency </fi:final-test>
+						<fi:final-test> attendance certificate </fi:final-test>
+						<fi:professor>
+							<fi:name> Barbara </fi:name>
+							<fi:gender> F </fi:gender>
+							<fi:email> barbara.euro@agency.it </fi:email>
+						<fi:address> Via Pertini 5 </fi:address>
+						<fi:language> Italian </fi:language>
+						<fi:proficiency> C1 </fi:proficiency> 
+					</fi:professor>
+						<fi:participant>
+							<fi:name> 5B Seville High School </fi:name>
+							<fi:age> 20 </fi:age>
+							<fi:gender> O </fi:gender>
+							<fi:email> seville5b.hs@hotmail.com </fi:email>
+							<fi:nationality> Spanish </fi:nationality>
+							<fi:native-language> Spanish </fi:native-language>
+						</fi:participant>
+					</fi:language-class>
+					<fi:language-class>
+						<fi:id> I3 </fi:id>
+						<fi:n-students> 15 </fi:n-students>
+						<fi:language> Italian </fi:language>
+						<fi:proficiency>  B1 to B2 </fi:proficiency>
+						<fi:final-test> attendance certificate </fi:final-test>
+						<fi:final-test> external certificate of proficiency </fi:final-test>
+						<fi:professor>
+							<fi:name> Barbara </fi:name>
+							<fi:gender> F </fi:gender>
+							<fi:email> barbara.euro@agency.it </fi:email>
+						<fi:address> Via Pertini 5 </fi:address>
+						<fi:language> Italian </fi:language>
+						<fi:proficiency> C2 </fi:proficiency> 
+					</fi:professor>
+					<fi:participant>
+						<fi:name> Edinburgh High School </fi:name>
+						<fi:age> 19 </fi:age>
+						<fi:gender> O </fi:gender>
+						<fi:email> edinburgh.hs@hotmail.com </fi:email>
+						<fi:nationality> British </fi:nationality>
+						<fi:native-language> English </fi:native-language>
+					</fi:participant>
+					<fi:participant>
+						<fi:name> 4B Seville High School </fi:name>
+						<fi:age> 19 </fi:age>
+						<fi:gender> O </fi:gender>
+						<fi:email> seville4b.hs@hotmail.com </fi:email>
+						<fi:nationality> Spanish </fi:nationality>
+						<fi:native-language> Spanish </fi:native-language>
+					</fi:participant>
+					</fi:language-class>
+				</fi:offer>
+			</fi:office>
+			<fi:office city='Rome'>
+				<fi:location>
+					<fi:postal-code> 00187 </fi:postal-code>
+					<fi:road-name> Piazza di Spagna </fi:road-name>
+					<fi:building-number> 23 </fi:building-number>
+				</fi:location>
+				<fi:n-employees> 3 </fi:n-employees>
+				<fi:manager> Matteo </fi:manager>
+				<fi:employee> 
+					<fi:name> Giacomo </fi:name>
+					<fi:email> giacomo.euro@agency.it </fi:email>
+					<fi:address> 23 Piazza di Spagna </fi:address>
+					<fi:gender> M </fi:gender>
+					<fi:language-offer-specialization> Italian </fi:language-offer-specialization>
+					<fi:office-location> Rome </fi:office-location>
+				</fi:employee>
+				<fi:employee> 
+					<fi:name> Anna </fi:name>
+					<fi:email> anna.euro@agency.it </fi:email>
+					<fi:address> 23 Piazza di Spagna </fi:address>
+					<fi:gender> F </fi:gender>
+					<fi:language-offer-specialization> Italian </fi:language-offer-specialization>
+					<fi:office-location> Rome </fi:office-location>
+				</fi:employee>
+				<fi:offer>
+					<fi:id> 221 </fi:id>
+					<fi:tour-leader> 
+						<fi:name> Anna </fi:name>
+						<fi:age> 27 </fi:age>
+						<fi:gender> F </fi:gender>
+						<fi:email> anna.euro@agency.it </fi:email>
+						<fi:address> 23 Piazza di Spagna </fi:address>
+						<fi:language-specialization> Italian </fi:language-specialization>
+						<fi:country-specialization> Italy </fi:country-specialization>
+						<fi:city-specialization> Rome </fi:city-specialization>
+					</fi:tour-leader>
+					<fi:participant> 
+						<fi:personal-info>
+							<fi:name> Ming's Couple </fi:name>
+							<fi:age> 25 </fi:age>
+							<fi:gender> O </fi:gender>
+							<fi:email> ming.c@hotmail.com </fi:email>
+							<fi:address> 13 Chinese Road </fi:address>
+							<fi:nationality> Chinese </fi:nationality>
+							<fi:native-language> Chinese </fi:native-language>
+							<fi:starting-proficiency-level> A1 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> A2 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> peers </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> culinary </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 2500 </fi:budget>
+							<fi:duration> 3 weeks </fi:duration>
+							<fi:season> Summer </fi:season>
+							<fi:start-date> 2023-06-01 </fi:start-date>
+							<fi:end-date> 2023-06-22 </fi:end-date>
+							<fi:accomodation> studio-apartment </fi:accomodation>
+							<fi:accommodation-board> room and board </fi:accommodation-board>
+							<fi:type-of-holiday> couples </fi:type-of-holiday>
+							<fi:final-test> proficiency certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:participant>
+						<fi:personal-info>
+							<fi:name> Markus and Simon </fi:name>
+							<fi:age> 25 </fi:age>
+							<fi:gender> M </fi:gender>
+							<fi:email> markus.simon@hotmail.com </fi:email>
+							<fi:address> 7 Berlin Strasse </fi:address>
+							<fi:nationality> German </fi:nationality>
+							<fi:native-language> German </fi:native-language>
+							<fi:starting-proficiency-level> A1 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> A2 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> alone </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> culinary </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 1500 </fi:budget>
+							<fi:duration> 3 weeks </fi:duration>
+							<fi:season> Summer </fi:season>
+							<fi:start-date> 2023-06-01 </fi:start-date>
+							<fi:end-date> 2023-06-22 </fi:end-date>
+							<fi:accomodation> studio-apartment </fi:accomodation>
+							<fi:accommodation-board> half board </fi:accommodation-board>
+							<fi:type-of-holiday> friends </fi:type-of-holiday>
+							<fi:final-test> proficiency certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:participant>
+						<fi:personal-info>
+							<fi:name> Miley </fi:name>
+							<fi:age> 26 </fi:age>
+							<fi:gender> F </fi:gender>
+							<fi:email> miley.c@hotmail.com </fi:email>
+							<fi:address> 7 Texas Street </fi:address>
+							<fi:nationality> American </fi:nationality>
+							<fi:native-language> English </fi:native-language>
+							<fi:starting-proficiency-level> A1 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> A2 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> alone </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> culinary </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 1900 </fi:budget>
+							<fi:duration> 3 weeks </fi:duration>
+							<fi:season> Summer </fi:season>
+							<fi:start-date> 2023-06-01 </fi:start-date>
+							<fi:end-date> 2023-06-22 </fi:end-date>
+							<fi:accomodation> guest-house </fi:accomodation>
+							<fi:accommodation-board> room and board </fi:accommodation-board>
+							<fi:type-of-holiday> cultural exchange </fi:type-of-holiday>
+							<fi:final-test> proficiency certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:period season='Summer'>
+						<fi:start-date> 2023-06-01 </fi:start-date>
+						<fi:end-date> 2023-06-22 </fi:end-date>
+						<fi:activity>
+							<fi:name> Sightseeing </fi:name>
+							<fi:occurrence> 4 </fi:occurrence>
+							<fi:main-type> culture </fi:main-type>
+							<fi:secondary-type> small group </fi:secondary-type>
+							<fi:n-participants> 3 </fi:n-participants>
+								<fi:participant>
+									<fi:name> Markus and Simon </fi:name>
+									<fi:age> 25 </fi:age>
+									<fi:gender> M </fi:gender>
+									<fi:email> markus.simon@hotmail.com </fi:email>
+								</fi:participant>
+								<fi:participant>
+									<fi:name> Miley </fi:name>
+									<fi:age> 26 </fi:age>
+									<fi:gender> F </fi:gender>
+									<fi:email> miley.c@hotmail.com </fi:email>
+								</fi:participant> 
+								<fi:participant>
+									<fi:name> Ming's Couple </fi:name>
+									<fi:age> 25 </fi:age>
+									<fi:gender> O </fi:gender>
+									<fi:email> ming.c@hotmail.com </fi:email>
+								</fi:participant>
+						</fi:activity>
+						<fi:activity>
+							<fi:name> street food </fi:name>
+							<fi:occurrence> 2 </fi:occurrence>
+							<fi:main-type> culinary </fi:main-type>
+							<fi:secondary-type> individual </fi:secondary-type>
+							<fi:n-participants> 2 </fi:n-participants>
+							<fi:participant>
+								<fi:name> Markus and Simon </fi:name>
+								<fi:age> 25 </fi:age>
+								<fi:gender> M </fi:gender>
+								<fi:email> markus.simon@hotmail.com </fi:email>
+							</fi:participant>
+							<fi:participant>
+								<fi:name> Miley </fi:name>
+								<fi:age> 26 </fi:age>
+								<fi:gender> F </fi:gender>
+								<fi:email> miley.c@hotmail.com </fi:email>
+							</fi:participant> 
+						</fi:activity>
+						<fi:activity>
+							<fi:name> Romantic Dinner </fi:name>
+							<fi:occurrence> 2 </fi:occurrence>
+							<fi:main-type> culinary </fi:main-type>
+							<fi:secondary-type> individual </fi:secondary-type>
+							<fi:n-participants> 1 </fi:n-participants>
+							<fi:participant>
+								<fi:name> Ming's Couple </fi:name>
+								<fi:age> 25 </fi:age>
+								<fi:gender> O </fi:gender>
+								<fi:email> ming.c@hotmail.com </fi:email>
+							</fi:participant>
+						</fi:activity>
+						<fi:staff>
+							<fi:name> Anna </fi:name>
+							<fi:gender> F </fi:gender>
+							<fi:email> anna.euro@agency.it </fi:email>
+							<fi:address> 23 Piazza di Spagna </fi:address>
+							<fi:language> Italian </fi:language>
+							<fi:type> planner </fi:type>
+						</fi:staff>
+					</fi:period>		
+					<fi:language-class>
+					<fi:id> I1 </fi:id>
+					<fi:n-students> 5 </fi:n-students>
+					<fi:language> Italian </fi:language>
+					<fi:proficiency>  A1 to A2 </fi:proficiency>
+					<fi:final-test> proficiency certificate </fi:final-test>
+					<fi:final-test> attendance certificate </fi:final-test>
+					<fi:professor>
+						<fi:name> Giacomo </fi:name>
+						<fi:gender> F </fi:gender>
+						<fi:email> giacomo.euro@agency.it </fi:email>
+						<fi:address> 23 Piazza di Spagna </fi:address>
+						<fi:language> Italian </fi:language>
+						<fi:proficiency> C1 </fi:proficiency> 
+					</fi:professor>
+					<fi:participant>
+						<fi:name> Miley </fi:name>
+						<fi:age> 26 </fi:age>
+						<fi:gender> F </fi:gender>
+						<fi:email> miley.c@hotmail.com </fi:email>
+						<fi:nationality> American </fi:nationality>
+						<fi:native-language> English </fi:native-language>
+					</fi:participant>
+					<fi:participant>
+						<fi:name> Ming's Couple </fi:name>
+						<fi:age> 25 </fi:age>
+						<fi:gender> O </fi:gender>
+						<fi:email> ming.c@hotmail.com </fi:email>
+						<fi:nationality> Chinese </fi:nationality>
+						<fi:native-language> Chinese </fi:native-language>
+					</fi:participant>
+					<fi:participant>
+						<fi:name> Markus and Simon </fi:name>
+						<fi:age> 25 </fi:age>
+						<fi:gender> M </fi:gender>
+						<fi:email> markus.simon@hotmail.com </fi:email>
+						<fi:nationality> German </fi:nationality>
+						<fi:native-language> German </fi:native-language>
+					</fi:participant>
+					</fi:language-class>
+				</fi:offer>
+				<fi:offer>
+					<fi:id> 222 </fi:id>
+					<fi:tour-leader> 
+						<fi:name> Anna </fi:name>
+						<fi:age> 27 </fi:age>
+						<fi:gender> F </fi:gender>
+						<fi:email> anna.euro@agency.it </fi:email>
+						<fi:address> 23 Piazza di Spagna </fi:address>
+						<fi:language-specialization> Italian </fi:language-specialization>
+						<fi:country-specialization> Italy </fi:country-specialization>
+						<fi:city-specialization> Rome </fi:city-specialization>
+					</fi:tour-leader>
+					<fi:participant> 
+						<fi:personal-info>
+							<fi:name> Kevin </fi:name>
+							<fi:age> 30 </fi:age>
+							<fi:gender> M </fi:gender>
+							<fi:email> kevin.s@hotmail.com </fi:email>
+							<fi:address> 22 Jump Street </fi:address>
+							<fi:nationality> American </fi:nationality>
+							<fi:native-language> English </fi:native-language>
+							<fi:starting-proficiency-level> A2 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> B2 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> mixed ages </fi:group>
+							<fi:activity-main-type> culinary </fi:activity-main-type>
+							<fi:activity-main-type> sport </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 3500 </fi:budget>
+							<fi:duration> 2 month </fi:duration>
+							<fi:season> Autumn </fi:season>
+							<fi:start-date> 2023-10-01 </fi:start-date>
+							<fi:end-date> 2023-12-01 </fi:end-date>
+							<fi:accomodation> guest-house </fi:accomodation>
+							<fi:accommodation-board> room and board </fi:accommodation-board>
+							<fi:type-of-holiday> cultural exchange </fi:type-of-holiday>
+							<fi:final-test> proficiency certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:participant>
+						<fi:personal-info>
+							<fi:name> Zorba </fi:name>
+							<fi:age> 25 </fi:age>
+							<fi:gender> M </fi:gender>
+							<fi:email> zorba.s@hotmail.com </fi:email>
+							<fi:address> 7 Athens Road </fi:address>
+							<fi:nationality> Greek </fi:nationality>
+							<fi:native-language> Greek </fi:native-language>
+							<fi:starting-proficiency-level> A2 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> B2 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> mixed ages </fi:group>
+							<fi:activity-main-type> culinary </fi:activity-main-type>
+							<fi:activity-main-type> relax </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 1500 </fi:budget>
+							<fi:duration> 2 month </fi:duration>
+							<fi:season> Autumn </fi:season>
+							<fi:start-date> 2023-10-01 </fi:start-date>
+							<fi:end-date> 2023-12-01 </fi:end-date>
+							<fi:accomodation> guest-house </fi:accomodation>
+							<fi:accommodation-board> not included </fi:accommodation-board>
+							<fi:type-of-holiday> cultural exchange </fi:type-of-holiday>
+							<fi:final-test> attendance certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:period season='Autumn'>
+						<fi:start-date> 2023-10-01</fi:start-date>
+						<fi:end-date> 2023-12-01 </fi:end-date>
+						<fi:activity>
+							<fi:name> Carbonara Lab </fi:name>
+							<fi:occurrence> 6 </fi:occurrence>
+							<fi:main-type> culinary </fi:main-type>
+							<fi:secondary-type> small group </fi:secondary-type>
+							<fi:n-participants> 2 </fi:n-participants>
+								<fi:participant>
+									<fi:name> Kevin </fi:name>
+									<fi:age> 30 </fi:age>
+									<fi:gender> M </fi:gender>
+									<fi:email> kevin.s@hotmail.com </fi:email>
+								</fi:participant>
+								<fi:participant>
+									<fi:name> Zorba </fi:name>
+									<fi:age> 25 </fi:age>
+									<fi:gender> M </fi:gender>
+									<fi:email> zorba.s@hotmail.com </fi:email>
+								</fi:participant>
+						</fi:activity>
+						<fi:staff>
+							<fi:name> Anna </fi:name>
+							<fi:gender> F </fi:gender>
+							<fi:email> anna.euro@agency.it </fi:email>
+							<fi:address> 23 Piazza di Spagna </fi:address>
+							<fi:language> Italian </fi:language>
+							<fi:type> guide </fi:type>
+						</fi:staff>
+					</fi:period>
+					<fi:language-class>
+						<fi:id> I32 </fi:id>
+						<fi:n-students> 2 </fi:n-students>
+						<fi:language> Italian </fi:language>
+						<fi:proficiency>  A2 to B2 </fi:proficiency>
+						<fi:final-test> proficiency certificate </fi:final-test>
+						<fi:final-test> attendance certificate </fi:final-test>
+						<fi:professor>
+							<fi:name> Giacomo </fi:name>
+							<fi:gender> M </fi:gender>
+							<fi:email> giacomo.euro@agency.it </fi:email>
+							<fi:address> 23 Piazza di Spagna </fi:address>
+							<fi:language> Italian </fi:language>
+							<fi:proficiency> C1 </fi:proficiency> 
+						</fi:professor>
+						<fi:participant>
+							<fi:name> Kevin </fi:name>
+							<fi:age> 30 </fi:age>
+							<fi:gender> M </fi:gender>
+							<fi:email> kevin.s@hotmail.com </fi:email>
+							<fi:nationality> American </fi:nationality>
+							<fi:native-language> English </fi:native-language>
+						</fi:participant>
+						<fi:participant>
+							<fi:name> Zorba </fi:name>
+							<fi:age> 25 </fi:age>
+							<fi:gender> M </fi:gender>
+							<fi:email> zorba.s@hotmail.com </fi:email>
+							<fi:nationality> Greek </fi:nationality>
+							<fi:native-language> Greek </fi:native-language>
+						</fi:participant>
+					</fi:language-class>
+				</fi:offer>
+			</fi:office>
+		</fi:country>
+	</fi:group>
+	<fi:group id='A'>
+		<fi:name> Asian </fi:name>
+		<fi:country name='Thailand'>
+			<fi:office city='Bangkok'>
+				<fi:location>
+					<fi:postal-code> 10120 </fi:postal-code>
+					<fi:road-name> Chan Road </fi:road-name>
+					<fi:building-number> 1 </fi:building-number>
+				</fi:location>
+				<fi:n-employees> 3 </fi:n-employees>
+				<fi:manager> Somchai </fi:manager>
+				<fi:employee> 
+					<fi:name> Somying </fi:name>
+					<fi:email> somying.asia@agency.th </fi:email>
+					<fi:address> 1 Chan Road </fi:address>
+					<fi:gender> F </fi:gender>
+					<fi:language-offer-specialization> Thai </fi:language-offer-specialization>
+					<fi:office-location> Bangkok </fi:office-location>
+				</fi:employee>
+				<fi:employee> 
+					<fi:name> Somporn </fi:name>
+					<fi:email> somporn.asia@agency.th </fi:email>
+					<fi:address> 1 Chan Road </fi:address>
+					<fi:gender> O </fi:gender>
+					<fi:language-offer-specialization> Thai </fi:language-offer-specialization>
+					<fi:office-location> Bangkok </fi:office-location>
+				</fi:employee>
+				<fi:offer>
+					<fi:id> 311 </fi:id>
+					<fi:tour-leader> 
+						<fi:name> Somying </fi:name>
+						<fi:age> 52 </fi:age>
+						<fi:gender> F </fi:gender>
+						<fi:email> somying.asia@agency.th </fi:email>
+						<fi:address> 1 Chan Road </fi:address>
+						<fi:language-specialization> Thai </fi:language-specialization>
+						<fi:country-specialization> Thailand </fi:country-specialization>
+						<fi:city-specialization> Bangkok </fi:city-specialization>
+					</fi:tour-leader>
+					<fi:participant> 
+						<fi:personal-info>
+							<fi:name> Park Chae-young </fi:name>
+							<fi:age> 26 </fi:age>
+							<fi:gender> F </fi:gender>
+							<fi:email> chae-young.p@hotmail.com </fi:email>
+							<fi:address> 3 Seoul Street </fi:address>
+							<fi:nationality> Korean </fi:nationality>
+							<fi:native-language> Korean </fi:native-language>
+							<fi:starting-proficiency-level> A2 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> B1 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> alone </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> relax </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 1200 </fi:budget>
+							<fi:duration> 1 month </fi:duration>
+							<fi:season> Winter </fi:season>
+							<fi:start-date> 2023-11-01 </fi:start-date>
+							<fi:end-date> 2023-12-01 </fi:end-date>
+							<fi:accomodation> studio-apartment </fi:accomodation>
+							<fi:accommodation-board> half board </fi:accommodation-board>
+							<fi:type-of-holiday> school break </fi:type-of-holiday>
+							<fi:final-test> proficiency certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:participant>
+						<fi:personal-info>
+							<fi:name> Patricia </fi:name>
+							<fi:age> 24 </fi:age>
+							<fi:gender> F </fi:gender>
+							<fi:email> patricia.d@hotmail.com </fi:email>
+							<fi:address> 75 Rue de paris </fi:address>
+							<fi:nationality> French </fi:nationality>
+							<fi:native-language> French </fi:native-language>
+							<fi:starting-proficiency-level> A2 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> B1 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> alone </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> relax </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 1200 </fi:budget>
+							<fi:duration> 1 month </fi:duration>
+							<fi:season> Winter </fi:season>
+							<fi:start-date> 2023-11-01 </fi:start-date>
+							<fi:end-date> 2023-12-01 </fi:end-date>
+							<fi:accomodation> college </fi:accomodation>
+							<fi:accommodation-board> room and board </fi:accommodation-board>
+							<fi:type-of-holiday> school break </fi:type-of-holiday>
+							<fi:final-test> external certificate of proficiency </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:period season='Winter'>
+						<fi:start-date> 2023-11-01 </fi:start-date>
+						<fi:end-date> 2023-12-01 </fi:end-date>
+						<fi:activity>
+							<fi:name> sightseeing </fi:name>
+							<fi:occurrence> 2 </fi:occurrence>
+							<fi:main-type> culture </fi:main-type>
+							<fi:secondary-type> small group </fi:secondary-type>
+							<fi:n-participants> 2 </fi:n-participants>
+								<fi:participant>
+									<fi:name> Park Chae-young </fi:name>
+									<fi:age> 26 </fi:age>
+									<fi:gender> F </fi:gender>
+									<fi:email> chae-young.p@hotmail.com </fi:email>
+								</fi:participant>
+								<fi:participant>
+									<fi:name> Patricia </fi:name>
+									<fi:age> 24 </fi:age>
+									<fi:gender> F </fi:gender>
+									<fi:email> patricia.d@hotmail.com </fi:email>
+								</fi:participant>
+						</fi:activity>
+						<fi:activity>
+							<fi:name> Massage </fi:name>
+							<fi:occurrence> 2 </fi:occurrence>
+							<fi:main-type> relax </fi:main-type>
+							<fi:secondary-type> individual </fi:secondary-type>
+							<fi:n-participants> 2 </fi:n-participants>
+								<fi:participant>
+									<fi:name> Park Chae-young </fi:name>
+									<fi:age> 26 </fi:age>
+									<fi:gender> F </fi:gender>
+									<fi:email> chae-young.p@hotmail.com </fi:email>
+								</fi:participant>
+								<fi:participant>
+									<fi:name> Patricia </fi:name>
+									<fi:age> 24 </fi:age>
+									<fi:gender> F </fi:gender>
+									<fi:email> patricia.d@hotmail.com </fi:email>
+								</fi:participant>
+						</fi:activity>
+						<fi:staff>
+							<fi:name> Somying </fi:name>
+							<fi:gender> F </fi:gender>
+							<fi:email> somying.asia@agency.th </fi:email>
+							<fi:address> 1 Chan Road </fi:address>
+							<fi:language> Thai </fi:language>
+							<fi:type> guide </fi:type>
+						</fi:staff>
+					</fi:period>		
+					<fi:language-class>
+					<fi:id> T2 </fi:id>
+					<fi:n-students> 2 </fi:n-students>
+					<fi:language> Thai </fi:language>
+					<fi:proficiency>  A2 to B1 </fi:proficiency>
+					<fi:final-test> external certificate of proficiency </fi:final-test>
+					<fi:final-test> proficiency certificate </fi:final-test>
+					<fi:professor>
+						<fi:name> Somporn </fi:name>
+						<fi:gender> F </fi:gender>
+						<fi:email> somporn.asia@agency.th </fi:email>
+						<fi:address> 1 Chan Road </fi:address>
+						<fi:language> Thai </fi:language>
+						<fi:proficiency> C1 </fi:proficiency> 
+					</fi:professor>
+					<fi:participant>
+						<fi:name> Park Chae-young </fi:name>
+						<fi:age> 26 </fi:age>
+						<fi:gender> F </fi:gender>
+						<fi:email> chae-young.p@hotmail.com </fi:email>
+                        <fi:nationality> Korean </fi:nationality>
+						<fi:native-language> korean </fi:native-language>
+					</fi:participant>
+					<fi:participant>
+						<fi:name> Patricia </fi:name>
+						<fi:age> 24 </fi:age>
+						<fi:gender> F </fi:gender>
+						<fi:email> patricia.d@hotmail.com </fi:email>
+                        <fi:nationality> French </fi:nationality>
+					    <fi:native-language> French </fi:native-language>
+					</fi:participant>
+					</fi:language-class>
+				</fi:offer>
+				<fi:offer>
+					<fi:id> 312 </fi:id>
+					<fi:tour-leader> 
+						<fi:name> Somying </fi:name>
+						<fi:age> 52 </fi:age>
+						<fi:gender> F </fi:gender>
+						<fi:email> somying.asia@agency.th </fi:email>
+						<fi:address> 1 Chan Road </fi:address>
+						<fi:language-specialization> Thai </fi:language-specialization>
+						<fi:country-specialization> Thailand </fi:country-specialization>
+						<fi:city-specialization> Bangkok </fi:city-specialization>
+					</fi:tour-leader>
+					<fi:participant> 
+						<fi:personal-info>
+							<fi:name> Marilia </fi:name>
+							<fi:age> 27 </fi:age>
+							<fi:gender> F </fi:gender>
+							<fi:email> marilia.m@hotmail.com </fi:email>
+							<fi:address> 382 Pedroso Road </fi:address>
+							<fi:nationality> Brazilian </fi:nationality>
+							<fi:native-language> Portuguese </fi:native-language>
+							<fi:starting-proficiency-level> A1 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> A2 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> alone </fi:group>
+							<fi:activity-main-type> sport </fi:activity-main-type>
+							<fi:activity-main-type> culinary </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 800 </fi:budget>
+							<fi:duration> 2 weeks </fi:duration>
+							<fi:season> Summer </fi:season>
+							<fi:start-date> 2023-04-01 </fi:start-date>
+							<fi:end-date> 2023-04-15 </fi:end-date>
+							<fi:accomodation> Studio-apartment </fi:accomodation>
+							<fi:accommodation-board> not included </fi:accommodation-board>
+							<fi:type-of-holiday> school break </fi:type-of-holiday>
+							<fi:final-test> proficiency certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:participant>
+						<fi:personal-info>
+							<fi:name> Patrick </fi:name>
+							<fi:age> 22 </fi:age>
+							<fi:gender> M </fi:gender>
+							<fi:email> Patrick.g@hotmail.com </fi:email>
+							<fi:address> 55 Hollywood street </fi:address>
+							<fi:nationality> American </fi:nationality>
+							<fi:native-language> English </fi:native-language>
+							<fi:starting-proficiency-level> A1 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> A2 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> mixed ages </fi:group>
+							<fi:activity-main-type> culinary </fi:activity-main-type>
+							<fi:activity-main-type> relax </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 700 </fi:budget>
+							<fi:duration> 2 weeks </fi:duration>
+							<fi:season> Summer </fi:season>
+							<fi:start-date> 2023-04-01 </fi:start-date>
+							<fi:end-date> 2023-04-15 </fi:end-date>
+							<fi:accomodation> guest-house </fi:accomodation>
+							<fi:accommodation-board> half board </fi:accommodation-board>
+							<fi:type-of-holiday> cultural exchange </fi:type-of-holiday>
+							<fi:final-test> proficiency certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:period season='Summer'>
+						<fi:start-date> 2023-04-01 </fi:start-date>
+						<fi:end-date> 2023-04-15 </fi:end-date>
+						<fi:activity>
+							<fi:name> Thai Food </fi:name>
+							<fi:occurrence> 2 </fi:occurrence>
+							<fi:main-type> culinary </fi:main-type>
+							<fi:secondary-type> small group </fi:secondary-type>
+							<fi:n-participants> 2 </fi:n-participants>
+								<fi:participant>
+									<fi:name> Marilia </fi:name>
+									<fi:age> 27 </fi:age>
+									<fi:gender> F </fi:gender>
+									<fi:email> marilia.m@hotmail.com </fi:email>
+								</fi:participant>
+								<fi:participant>
+									<fi:name> Patrick </fi:name>
+									<fi:age> 22 </fi:age>
+									<fi:gender> M </fi:gender>
+									<fi:email> Patrick.g@hotmail.com </fi:email>
+								</fi:participant>
+						</fi:activity>
+						<fi:activity>
+							<fi:name> Thai Boxing </fi:name>
+							<fi:occurrence> 1 </fi:occurrence>
+							<fi:main-type> sport </fi:main-type>
+							<fi:secondary-type> individual </fi:secondary-type>
+							<fi:n-participants> 1 </fi:n-participants>
+								<fi:participant>
+									<fi:name> Marilia </fi:name>
+									<fi:age> 27 </fi:age>
+									<fi:gender> F </fi:gender>
+									<fi:email> marilia.m@hotmail.com </fi:email>
+								</fi:participant>
+						</fi:activity>
+						<fi:staff>
+							<fi:name> Somying </fi:name>
+							<fi:gender> F </fi:gender>
+							<fi:email> somying.asia@agency.th </fi:email>
+							<fi:address> 1 Chan Road </fi:address>
+							<fi:language> Thai </fi:language>
+							<fi:type> guide </fi:type>
+						</fi:staff>
+					</fi:period>
+					<fi:language-class>
+						<fi:id> T1 </fi:id>
+						<fi:n-students> 2 </fi:n-students>
+						<fi:language> Thai </fi:language>
+						<fi:proficiency>  A1 to A2 </fi:proficiency>
+						<fi:final-test> external certificate of proficiency </fi:final-test>
+						<fi:final-test> proficiency certificate </fi:final-test>
+						<fi:professor>
+							<fi:name> Somporn </fi:name>
+							<fi:gender> F </fi:gender>
+							<fi:email> somporn.asia@agency.th </fi:email>
+							<fi:address> 1 Chan Road </fi:address>
+							<fi:language> Thai </fi:language>
+							<fi:proficiency> C1 </fi:proficiency> 
+						</fi:professor>
+						<fi:participant>
+							<fi:name> Marilia </fi:name>
+							<fi:age> 27 </fi:age>
+							<fi:gender> F </fi:gender>
+							<fi:email> marilia.m@hotmail.com </fi:email>
+                            <fi:nationality> Brazilian </fi:nationality>
+							<fi:native-language> Portuguese </fi:native-language>
+						</fi:participant>
+						<fi:participant>
+							<fi:name> Patrick </fi:name>
+							<fi:age> 22 </fi:age>
+							<fi:gender> M </fi:gender>
+							<fi:email> Patrick.g@hotmail.com </fi:email>
+                            <fi:nationality> American </fi:nationality>
+							<fi:native-language> English </fi:native-language>
+						</fi:participant>
+					</fi:language-class>
+				</fi:offer>
+			</fi:office>
+			<fi:office city='Phuket'>
+				<fi:location>
+					<fi:postal-code> 83000 </fi:postal-code>
+					<fi:road-name> Phuket Road </fi:road-name>
+					<fi:building-number> 10 </fi:building-number>
+				</fi:location>
+				<fi:n-employees> 3 </fi:n-employees>
+				<fi:manager> Chanakarn </fi:manager>
+				<fi:employee> 
+					<fi:name> Yanisa </fi:name>
+					<fi:email> yanisa.asia@agency.th </fi:email>
+					<fi:address> 10 Phuket Road </fi:address>
+					<fi:gender> F </fi:gender>
+					<fi:language-offer-specialization> Thai </fi:language-offer-specialization>
+					<fi:office-location> Phuket </fi:office-location>
+				</fi:employee>
+				<fi:employee> 
+					<fi:name> Samart </fi:name>
+					<fi:email> samart.asia@agency.th </fi:email>
+					<fi:address> 10 Phuket Road </fi:address>
+					<fi:gender> M </fi:gender>
+					<fi:language-offer-specialization> Thai </fi:language-offer-specialization>
+					<fi:office-location> Phuket </fi:office-location>
+				</fi:employee>
+				<fi:offer>
+					<fi:id> 321 </fi:id>
+					<fi:tour-leader> 
+						<fi:name> Yanisa </fi:name>
+						<fi:age> 35 </fi:age>
+						<fi:gender> F </fi:gender>
+						<fi:email> yanisa.asia@agency.th </fi:email>
+						<fi:address> 10 Phuket Road </fi:address>
+						<fi:language-specialization> Thai </fi:language-specialization>
+						<fi:country-specialization> Thailand </fi:country-specialization>
+						<fi:city-specialization> Phuket </fi:city-specialization>
+					</fi:tour-leader>
+					<fi:participant> 
+						<fi:personal-info>
+							<fi:name> Eric's Family </fi:name>
+							<fi:age> 29 </fi:age>
+							<fi:gender> O </fi:gender>
+							<fi:email> eric.f@hotmail.com </fi:email>
+							<fi:address> 102 zurich street </fi:address>
+							<fi:nationality> Swiss </fi:nationality>
+							<fi:native-language> French </fi:native-language>
+							<fi:starting-proficiency-level> B1 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> C1 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> alone </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> relax </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 2500 </fi:budget>
+							<fi:duration> 2 month </fi:duration>
+							<fi:season> Summer </fi:season>
+							<fi:start-date> 2023-03-01 </fi:start-date>
+							<fi:end-date> 2023-05-01 </fi:end-date>
+							<fi:accomodation> college </fi:accomodation>
+							<fi:accommodation-board> room and board</fi:accommodation-board>
+							<fi:type-of-holiday> school break </fi:type-of-holiday>
+							<fi:final-test> proficiency certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:participant>
+						<fi:personal-info>
+							<fi:name> Andrea </fi:name>
+							<fi:age> 30 </fi:age>
+							<fi:gender> M </fi:gender>
+							<fi:email> Andrea.y@hotmail.com </fi:email>
+							<fi:address> 31 Piazza Goito1 </fi:address>
+							<fi:nationality> Italian </fi:nationality>
+							<fi:native-language> Italian </fi:native-language>
+							<fi:starting-proficiency-level> B1 </fi:starting-proficiency-level>
+							<fi:end-proficiency-level> C1 </fi:end-proficiency-level>
+						</fi:personal-info>
+						<fi:preferences> 
+							<fi:group> alone </fi:group>
+							<fi:activity-main-type> culture </fi:activity-main-type>
+							<fi:activity-main-type> sport </fi:activity-main-type>
+							<fi:activity-secondary-type> individual </fi:activity-secondary-type>
+							<fi:activity-secondary-type> small group </fi:activity-secondary-type>
+							<fi:budget currency='$'> 2500 </fi:budget>
+							<fi:duration> 2 month </fi:duration>
+							<fi:season> Summer </fi:season>
+							<fi:start-date> 2023-03-01 </fi:start-date>
+							<fi:end-date> 2023-05-01 </fi:end-date>
+							<fi:accomodation> studio-apartment </fi:accomodation>
+							<fi:accommodation-board> half board </fi:accommodation-board>
+							<fi:type-of-holiday> school break </fi:type-of-holiday>
+							<fi:final-test> proficiency certificate </fi:final-test>
+						</fi:preferences>
+					</fi:participant>
+					<fi:period season='Summer'>
+						<fi:start-date> 2023-03-01 </fi:start-date>
+						<fi:end-date> 2023-05-01 </fi:end-date>
+						<fi:activity>
+							<fi:name> Temple Tour </fi:name>
+							<fi:occurrence> 2 </fi:occurrence>
+							<fi:main-type> culture </fi:main-type>
+							<fi:secondary-type> small group </fi:secondary-type>
+							<fi:n-participants> 2 </fi:n-participants>
+								<fi:participant>
+									<fi:name> Eric's Family </fi:name>
+									<fi:age> 29 </fi:age>
+									<fi:gender> O </fi:gender>
+									<fi:email> eric.f@hotmail.com </fi:email>
+								</fi:participant>
+								<fi:participant>
+									<fi:name> Andrea </fi:name>
+									<fi:age> 30 </fi:age>
+									<fi:gender> M </fi:gender>
+									<fi:email> Andrea.y@hotmail.com </fi:email>
+								</fi:participant>
+						</fi:activity>
+						<fi:activity>
+							<fi:name> Volleyball </fi:name>
+							<fi:occurrence> 2 </fi:occurrence>
+							<fi:main-type> sport </fi:main-type>
+							<fi:secondary-type> individual </fi:secondary-type>
+							<fi:n-participants> 1 </fi:n-participants>
+								<fi:participant>
+									<fi:name> Andrea </fi:name>
+									<fi:age> 30 </fi:age>
+									<fi:gender> M </fi:gender>
+									<fi:email> Andrea.y@hotmail.com </fi:email>
+								</fi:participant>
+						</fi:activity>
+						<fi:staff>
+							<fi:name> Yanisa </fi:name>
+							<fi:gender> F </fi:gender>
+							<fi:email> yanisa.asia@agency.th </fi:email>
+							<fi:address> 10 Phuket Road </fi:address>
+							<fi:language> Thai </fi:language>
+							<fi:type> coordinator </fi:type>
+						</fi:staff>
+					</fi:period>		
+					<fi:language-class>
+						<fi:id> T42 </fi:id>
+						<fi:n-students> 2 </fi:n-students>
+						<fi:language> Thai </fi:language>
+						<fi:proficiency>  B1 to C1 </fi:proficiency>
+						<fi:final-test> proficiency certificate </fi:final-test>
+						<fi:professor>
+							<fi:name> Samart </fi:name>
+							<fi:gender> M </fi:gender>
+							<fi:email> samart.asia@agency.th </fi:email>
+							<fi:address> 10 Phuket Road </fi:address>
+							<fi:language> Thai </fi:language>
+							<fi:proficiency> C2 </fi:proficiency> 
+						</fi:professor>
+						<fi:participant>
+							<fi:name> Eric's Family </fi:name>
+							<fi:age> 29 </fi:age>
+							<fi:gender> O </fi:gender>
+							<fi:email> eric.f@hotmail.com </fi:email>
+							<fi:nationality> Swiss </fi:nationality>
+							<fi:native-language> French </fi:native-language>
+						</fi:participant>
+						<fi:participant>
+							<fi:name> Andrea </fi:name>
+							<fi:age> 30 </fi:age>
+							<fi:gender> M </fi:gender>
+							<fi:email> Andrea.y@hotmail.com </fi:email>
+							<fi:nationality> Italian </fi:nationality>
+							<fi:native-language> Italian </fi:native-language>
+						</fi:participant>
+					</fi:language-class>
+				</fi:offer>
+			</fi:office>
+		</fi:country>
+	</fi:group>
+</fi:LANGUAGE-HOLIDAY-AGENCY>

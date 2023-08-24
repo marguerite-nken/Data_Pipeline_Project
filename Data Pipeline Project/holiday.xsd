@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="LANGUAGE-HOLIDAY-AGENCY">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="group" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element name="country" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="office" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="location" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:integer" name="postal-code"/>
+                                <xs:element type="xs:string"  name="road-name"/>
+                                <xs:element type="xs:integer" name="building-number"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:integer" name="n-employees"/>
+                          <xs:element type="xs:string"  name="manager"/>
+                          <xs:element name="employee" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="name"/>
+                                <xs:element type="xs:string" name="email"/>
+                                <xs:element type="xs:string" name="address"/>
+                                <xs:element type="xs:string" name="gender"/>
+                                <xs:element type="xs:string" name="language-offer-specialization"/>
+                                <xs:element type="xs:string" name="office-location"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="offer" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="id"/>
+                                <xs:element name="tour-leader" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string"  name="name"/>
+                                      <xs:element type="xs:integer" name="age"/>
+                                      <xs:element type="xs:string"  name="gender"/>
+                                      <xs:element type="xs:string"  name="email"/>
+                                      <xs:element type="xs:string"  name="address"/>
+                                      <xs:element type="xs:string"  name="language-specialization"/>
+                                      <xs:element type="xs:string"  name="country-specialization"/>
+                                      <xs:element type="xs:string"  name="city-specialization"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="participant" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="personal-info" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="name"/>
+                                            <xs:element type="xs:integer" name="age"/>
+                                            <xs:element type="xs:string" name="gender"/>
+                                            <xs:element type="xs:string" name="email"/>
+                                            <xs:element type="xs:string" name="address"/>
+                                            <xs:element type="xs:string" name="nationality"/>
+                                            <xs:element type="xs:string" name="native-language"/>
+                                            <xs:element type="xs:string" name="starting-proficiency-level"/>
+                                            <xs:element type="xs:string" name="end-proficiency-level"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="preferences" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="group"/>
+                                            <xs:element type="xs:string" name="activity-main-type" maxOccurs="unbounded" minOccurs="0"/>
+                                            <xs:element type="xs:string" name="activity-secondary-type" maxOccurs="unbounded" minOccurs="0"/>
+                                            <xs:element name="budget">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:integer">
+                                                    <xs:attribute type="xs:string" name="currency" use="optional"/>
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element type="xs:string" name="duration"/>
+                                            <xs:element type="xs:string" name="season"/>
+                                            <xs:element type="xs:date"   name="start-date"/>
+                                            <xs:element type="xs:date"   name="end-date"/>
+                                            <xs:element type="xs:string" name="accomodation"/>
+                                            <xs:element type="xs:string" name="accommodation-board"/>
+                                            <xs:element type="xs:string" name="type-of-holiday"/>
+                                            <xs:element type="xs:string" name="final-test"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="period" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:date" name="start-date"/>
+                                      <xs:element type="xs:date" name="end-date"/>
+                                      <xs:element name="activity" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string"  name="name"/>
+                                            <xs:element type="xs:integer" name="occurrence"/>
+                                            <xs:element type="xs:string"  name="main-type"/>
+                                            <xs:element type="xs:string"  name="secondary-type"/>
+                                            <xs:element type="xs:integer" name="n-participants"/>
+                                            <xs:element name="participant" maxOccurs="unbounded" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element type="xs:string"  name="name"/>
+                                                  <xs:element type="xs:integer" name="age"/>
+                                                  <xs:element type="xs:string"  name="gender"/>
+                                                  <xs:element type="xs:string"  name="email"/>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="staff" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="name"/>
+                                            <xs:element type="xs:string" name="gender"/>
+                                            <xs:element type="xs:string" name="email"/>
+                                            <xs:element type="xs:string" name="address"/>
+                                            <xs:element type="xs:string" name="language"/>
+                                            <xs:element type="xs:string" name="type"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:string" name="season" use="optional"/>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="language-class" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string"  name="id"/>
+                                      <xs:element type="xs:integer" name="n-students"/>
+                                      <xs:element type="xs:string"  name="language"/>
+                                      <xs:element type="xs:string"  name="proficiency"/>
+                                      <xs:element type="xs:string"  name="final-test" maxOccurs="unbounded" minOccurs="0"/>
+                                      <xs:element name="professor" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="name"/>
+                                            <xs:element type="xs:string" name="gender"/>
+                                            <xs:element type="xs:string" name="email"/>
+                                            <xs:element type="xs:string" name="address"/>
+                                            <xs:element type="xs:string" name="language"/>
+                                            <xs:element type="xs:string" name="proficiency"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="participant" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string"  name="name"/>
+                                            <xs:element type="xs:integer" name="age"/>
+                                            <xs:element type="xs:string"  name="gender"/>
+                                            <xs:element type="xs:string"  name="email"/>
+                                            <xs:element type="xs:string"  name="nationality"/>
+                                            <xs:element type="xs:string"  name="native-language"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="city" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="name" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
